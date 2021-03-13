@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title class="owner-name">#</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+    <link rel="stylesheet" href="../style.css" type="text/css">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
+</head>
+
+<body>
+
+    <!-- Navbar -->
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand owner-name" href="#"></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="../index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#" id="github" target="_blank">Github</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="../index.html#projects">Projects</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- First Container -->
+    <div class="container-fluid bg-1">
+        <div class="container">
+
+          <h1 class="margin text-center">Javascript Tree Project</h1>
+          <hr>
+          <h2>Context</h2>
+            <p>This project is primarily focused to practice loop(s), object(s), and other concepts I've learned so far in javascript from class.</p>
+            <p>This project involves working with an API dataset chosen from <a href = "https://opendata.cityofnewyork.us/data/">open data</a>.</p>
+            <p>Working with my groupmates, Cami and Ivan, we used this <a href ="https://data.cityofnewyork.us/resource/uvpi-gqnh.json">dataset</a> about trees.</p>
+            <p>What this project does is that it will ask you to put in a zipcode and it will output information about the trees that lives by your zipcode. </p>
+            
+            <center><img src="../img/tree.png" class="img-fluid project-img"></center>
+          
+            <hr>
+            
+            <h2>Challenges</h2>
+            <p>One of the biggest challenges out there was the fact that there were A LOT of ideas on what we could do with the tree dataset we chose. Me and my groupmates kept on going back and forth on what we want to do, and it was certainly messy at times. We had 2 main ideas that we liked. One was for the user to put the zipcode of their choice and then the program would output what type of tree lives by that zipcode. The second one was for the user to input a certain type of tree and then the program will output where that tree will be. I didn't want to focus on too many ideas at once, so my group decided to stick with the first main idea and alter it as we go.</p>
+            
+            <p>Another challenge is that sometimes me and my groupmates forget to add an extra = or } which generally are the main source of our errors. For example, there was at one point where our code had an error specifically on our if statement where if our API dataset has that zipcode, then it will put all the tree information into arrays. We didn't realize why that was happening. After some time analyzing it, we realized that our if statement had only one = sign which caused the error. All we needed to do was add another = to it (making it ==) and the error was gone.</p>
+            
+            <hr>
+            
+            <h2>Next Steps</h2>
+            <p>Our next steps for this group project may be to add images of the trees whenever information about that specific tree pops up. </p>
+            <p>It would be also pretty neat to add accordions with titles of the tree name and then all the other information will pop out. Also, adding colors and fancy fonts would be pretty cool as well. </p>
+            
+            
+            <a href="#">Link about the project</a><br>
+
+            <!--EXAMPLE OF PREVIEW LINK-->
+            <a href="https://jennyc8842.github.io/sep11-js-treeproject/">Preview</a>
+            <!--EXAMPLE OF GITHUB LINK-->
+            <a href="https://github.com/jennyc8842/sep11-js-treeproject">Github</a>
+
+
+            <!--<img src="../img/tree.png" class="img-fluid project-img">-->
+
+
+            <div class="row">
+
+                <!--
+                <div class="col-sm-6">
+                    Use this to...
+                </div>
+                <div class="col-sm-6">
+                    ...make two columns
+                </div>
+                -->
+
+            </div>
+
+        </div>
+    </div>
+
+
+
+    <!-- Footer -->
+    <footer class="container-fluid bg-4 text-center">
+        <a href="#" target="_blank" id="fork"><img src="../img/fork.png"></a><br>
+        <a href="https://hstatsep.github.io" target="_blank"><img src="https://hstatsep.github.io/img/hstatsep-logo-small.png" id="sep"></a>
+    </footer>
+
+
+    <script src="../script.js"></script>
+</body>
+
+</html>
